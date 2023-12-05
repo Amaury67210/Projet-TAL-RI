@@ -1,0 +1,19 @@
+<html>
+<head>
+  #parse("head.vm")
+</head>
+  <body>
+    <div id="head">
+      <a href="#url_for_home#if($debug)?debug=true#end"><img src="#{url_root}/img/unistra.png" id="logo"/></a>
+    </div>
+  <div id="head">
+  </div>
+    <div id="content">
+      $content
+    </div>
+
+    <div id="footer">
+      #parse("footer.vm")
+    </div>
+  </body>
+</html>

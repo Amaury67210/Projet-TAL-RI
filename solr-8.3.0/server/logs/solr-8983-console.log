@@ -1,0 +1,16 @@
+Java HotSpot(TM) 64-Bit Server VM warning: -XX:+UseLargePages not supported in this VM
+2022-05-04 13:21:56.907 INFO  (main) [   ] o.e.j.u.log Logging initialized @1429ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-04 13:21:57.011 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.rewrite.handler.RedirectRegexRule.setReplacement(java.lang.String) in file:///Users/amorce/Documents/projet_text_2/solr-8.3.0/server/etc/jetty.xml
+2022-05-04 13:21:57.085 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2022-05-04 13:21:57.085 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.server.ServerConnector.setSoLingerTime(int) in file:///Users/amorce/Documents/projet_text_2/solr-8.3.0/server/etc/jetty-http.xml
+2022-05-04 13:21:57.104 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 17.0.2+8-LTS-86
+2022-05-04 13:21:57.119 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/amorce/Documents/projet_text_2/solr-8.3.0/server/contexts/] at interval 0
+2022-05-04 13:21:57.439 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2022-05-04 13:21:57.446 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2022-05-04 13:21:57.447 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2022-05-04 13:21:57.448 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2022-05-04 13:21:57.519 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2022-05-04 13:21:57.522 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.3.0
+2022-05-04 13:21:57.522 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2022-05-04 13:21:57.522 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/amorce/Documents/projet_text_2/solr
+2022-05-04 13:21:57.522 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2022-05-04T13:21:57.522894Z
